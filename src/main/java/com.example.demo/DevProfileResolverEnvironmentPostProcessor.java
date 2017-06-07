@@ -5,9 +5,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.env.EnvironmentPostProcessor;
 import org.springframework.core.env.ConfigurableEnvironment;
 
+import java.util.Map;
+
 /**
  * Created by Serzh on 6/3/17.
  */
+//put in spring.factories
+//org.springframework.boot.env.EnvironmentPostProcessor = com.example.demo.DevProfileResolverEnvironmentPostProcessor
 public class DevProfileResolverEnvironmentPostProcessor implements EnvironmentPostProcessor {
     @Override
     public void postProcessEnvironment(ConfigurableEnvironment configurableEnvironment, SpringApplication springApplication) {
