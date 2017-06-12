@@ -1,2 +1,3 @@
 org.springframework.boot.env.EnvironmentPostProcessor = com.example.demo.DevProfileResolverEnvironmentPostProcessor
 org.springframework.context.ApplicationContextInitializer = com.example.demo.ProfileSentinelApplicationInitializer
+org.springframework.boot.autoconfigure.EnableAutoConfiguration = com.example.demo.Conf

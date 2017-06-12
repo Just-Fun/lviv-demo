@@ -45,6 +45,14 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.5</version>
 		</dependency>
+
+        <!--Autocomplete for application.yml-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<!--<version>1.5.4.RELEASE</version>-->
+		</dependency>
+
 	</dependencies>
 
 	<build>

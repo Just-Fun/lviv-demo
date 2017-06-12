@@ -20,7 +20,8 @@ public class DevProfileResolverEnvironmentPostProcessor implements EnvironmentPo
             String os = System.getProperty("os.name");
             if (StringUtils.containsIgnoreCase(os, "mac")) {
 //            if (StringUtils.containsIgnoreCase(os, "ubuntu")) {
-                configurableEnvironment.addActiveProfile("DEV");
+//                configurableEnvironment.addActiveProfile("DEV");
+                configurableEnvironment.addActiveProfile("PROD");
             } else if (StringUtils.containsIgnoreCase(os, "winda")) {
                 System.out.println("Crazy...");
             }

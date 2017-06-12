@@ -1,0 +1,6 @@
+server.port: 8097
+prod:
+  mails:
+    - some@gmail.com
+    - test@gmail.com
+  notification: false
